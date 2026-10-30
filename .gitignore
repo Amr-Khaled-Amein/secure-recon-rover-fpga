@@ -1,0 +1,20 @@
+# Python environment (rebuild: docs/how_to_test.md, section F)
+.venv/
+__pycache__/
+
+# Build outputs and logs (regenerate with scripts\run_all.bat)
+build/
+
+# Vivado generated folders and files (the project file AES_Trial_1.xpr is kept)
+AES_Trial_1.cache/
+AES_Trial_1.hw/
+AES_Trial_1.ip_user_files/
+AES_Trial_1.runs/
+AES_Trial_1.sim/
+.Xil/
+*.jou
+*.log
+*.str
+*.wdb
+*.pb
+xsim.dir/
