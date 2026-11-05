@@ -1,20 +1,12 @@
-<div align="center">
-
 # Secure Reconnaissance Rover on FPGA
 
-**An FPGA rover that streams live video over an untrusted wireless link. The video is encrypted and authenticated with AES-128-GCM in FPGA fabric, and the key comes from an on-chip ring-oscillator PUF, so it is never stored anywhere.**
+An FPGA rover that streams live video over an untrusted wireless link. The video is
+encrypted and authenticated with AES-128-GCM in FPGA fabric, and the key comes from an
+on-chip ring-oscillator PUF, so it is never stored anywhere.
 
-![Verilog](https://img.shields.io/badge/HDL-Verilog%20%2F%20SystemVerilog-1f6feb)
-![FPGA](https://img.shields.io/badge/FPGA-Xilinx%20Artix--7-E01F27)
-![Vivado](https://img.shields.io/badge/Tools-Vivado%202026.1-E01F27)
-![Python](https://img.shields.io/badge/Golden%20model-Python-3776AB?logo=python&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Phase%200%20complete%2C%20hardware%20in%20progress-orange)
-
-<sub>Graduation project, Computer and Communications Engineering, Faculty of Engineering, Alexandria University.</sub>
-
-</div>
-
----
+Graduation project, Computer and Communications Engineering, Faculty of Engineering,
+Alexandria University. Verilog / SystemVerilog on Xilinx Artix-7, Python golden models.
+Phase 0 (simulation and synthesis) is complete, hardware bring-up is in progress.
 
 ## Overview
 
